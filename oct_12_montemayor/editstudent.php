@@ -36,18 +36,18 @@
 			<input type="text" name="gender" value="<?php echo $getEmployeeByID['gender']; ?>">
 		</p>
 		<p>
-			<label for="yearLevel">Birthday</label>
+			<label for="birthday">Birthday</label>
 			<input type="date" name="birthday" value="<?php echo $getEmployeeByID['birthday']; ?>">
 		</p>
 		<p>
-			<label for="adviser">Email</label>
+			<label for="email">Email</label>
 			<input type="text" name="email" value="<?php echo $getEmployeeByID['email']; ?>"></p>
 		<p>
-			<label for="section">Specialization</label>
+			<label for="specialization">Specialization</label>
 			<input type="text" name="specialization" value="<?php echo $getEmployeeByID['specialization']; ?>">
 		</p>
 		<p>
-			<label for="religion">Date Added</label>
+			<label for="dateAdded">Date Added</label>
 			<input type="datetime-local" name="dateAdded" value="<?php echo $getEmployeeByID['date_added']; ?>">
 			<input type="submit" name="editStudentBtn">
 		</p>
